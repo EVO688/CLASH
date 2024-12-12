@@ -92,21 +92,21 @@ NodeParam:
     interval: 6
 proxy-providers:
   机场名称1:
-    url: https://598168.xyz/api/v1/client/subscribe?token=986179aeb90f4680ca1b15c07a902663
+    url: 地址
     type: http
     interval: 3600
     health-check: *1
     path: "./proxy_provider/机场名称1.yaml"
     override:
-      additional-prefix: "[懂王云] "
+      additional-prefix: "[机场名称1] "
   机场名称2:
-    url: https://eu66.tk/api/v1/client/subscribe?token=489af1bd4662b863e4ecb94d88a5dbc2
+    url: 地址
     type: http
     interval: 3600
     health-check: *1
     path: "./proxy_provider/机场名称2.yaml"
     override:
-      additional-prefix: "[小白☁️] "
+      additional-prefix: "[机场名称2] "
 FilterHK: "^(?=.*((?i)\U0001F1ED\U0001F1F0|香港|(\\b(HK|Hong)\\b)))(?!.*((?i)回国|校园|游戏|\U0001F3AE|(\\b(GAME)\\b))).*$"
 FilterTW: "^(?=.*((?i)\U0001F1F9\U0001F1FC|台湾|(\\b(TW|Tai|Taiwan)\\b)))(?!.*((?i)回国|校园|游戏|\U0001F3AE|(\\b(GAME)\\b))).*$"
 FilterJP: "^(?=.*((?i)\U0001F1EF\U0001F1F5|日本|川日|东京|大阪|泉日|埼玉|(\\b(JP|Japan)\\b)))(?!.*((?i)回国|校园|游戏|\U0001F3AE|(\\b(GAME)\\b))).*$"
