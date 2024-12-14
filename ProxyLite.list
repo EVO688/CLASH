@@ -27,7 +27,7 @@ IP-CIDR,208.67.220.220/32,no-resolve
 IP-CIDR,142.250.0.0/16,no-resolve
 
 # 域名关键字匹配
-DOMAIN-KEYWORD,1e100
+# DOMAIN-KEYWORD,1e100
 
 # 域名后缀匹配-其他网站
 DOMAIN-SUFFIX,polymarket.com
