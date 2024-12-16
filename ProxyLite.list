@@ -32,7 +32,7 @@ DOMAIN-KEYWORD,v2board
 DOMAIN-KEYWORD,hostloc
 
 # 域名后缀匹配-其他网站
-# DOMAIN-SUFFIX,hostloc.com
+DOMAIN-SUFFIX,hostloc.com
 DOMAIN-SUFFIX,polymarket.com
 DOMAIN-SUFFIX,cacapex.com
 DOMAIN-SUFFIX,1lib.sk
